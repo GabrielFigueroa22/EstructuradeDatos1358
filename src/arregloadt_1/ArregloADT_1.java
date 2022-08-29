@@ -11,9 +11,10 @@ public class ArregloADT_1 {
     public static void main(String[] args) {
     }
     private int tamanio;
-    ArrayList<Object> datos = new ArrayList(this.tamanio);
+    ArrayList<Object> datos;
 
     public ArregloADT_1 (int tamanio) {
+        this.datos = new ArrayList(this.tamanio);
         this.tamanio = tamanio;
         System.out.println("Dimensiones del arreglo = " + tamanio + "casillas");
         
