@@ -44,7 +44,7 @@ public class aplicaciondemetodo<T> {
         return "|" + datos + "| <-> ";
     }
     public String mostrarTodo() {
-        return "Anterior = " + this.getAnterior() + "<-> Dato = " + datos + " <-> Siguiente = " + this.getSiguiente();
+        return "[Anterior = " + this.getAnterior() + "]<-> [Dato = " + datos + "] <-> [Siguiente = " + this.getSiguiente() + "]";
     }
 }
 
