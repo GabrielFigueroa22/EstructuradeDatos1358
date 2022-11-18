@@ -68,7 +68,7 @@ public class ExtraAct {
                             int contY = 0;
                             int contZ = 0;
                         try {
-                            BufferedReader br = new BufferedReader(new FileReader("C:/User/Gabriel/Documentos/texto.txt"));
+                            BufferedReader br = new BufferedReader(new FileReader("C:/User/Gabriel/Documents/el_quijote.txt"));
                             System.out.println("TEXTO LEIDO");
                             System.out.println("----- -----\n");
 
