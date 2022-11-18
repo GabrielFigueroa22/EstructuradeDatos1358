@@ -1,8 +1,8 @@
-package com.mycompany.Extras;
-Import java.io.BufferedReader;
-Import java.io.FileNotFoundException;
-Import java.io.FileReader;
-Import java.io.IOException;
+package com.mycompany.extras;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 
 /**
  *
@@ -10,301 +10,298 @@ Import java.io.IOException;
  */
 public class ExtraAct {
 
-            Public static void main(String[] args) {
-                    Int contador = 0;
-                    Char letractual;
-                            Int contador_a= 0;
-                            Int contador_b= 0;
-                            Int contador_c= 0;
-                            Int contador_d= 0;
-                            Int contador_e= 0;
-                            Int contador_f= 0;
-                            Int contador_g= 0;
-                            Int contador_h= 0;
-                            Int contador_i= 0;
-                            Int contador_j= 0;
-                            Int contador_k= 0;
-                            Int contador_l= 0;
-                            Int contador_m= 0;
-                            Int contador_n= 0;
-                            Int contador_ñ= 0;
-                            Int contador_o= 0;
-                            Int contador_p= 0;
-                            Int contador_q= 0;
-                            Int contador_r= 0;
-                            Int contador_s= 0;
-                            Int contador_t= 0;
-                            Int contador_u= 0;
-                            Int contador_v= 0;
-                            Int contador_w= 0;
-                            Int contador_x= 0;
-                            Int contador_y= 0;
-                            Int contador_z= 0;
-                            Int contador_A= 0;
-                            Int contador_B= 0;
-                            Int contador_C= 0;
-                            Int contador_D= 0;
-                            Int contador_E= 0;
-                            Int contador_F= 0;
-                            Int contador_G= 0;
-                            Int contador_H= 0;
-                            Int contador_I= 0;
-                            Int contador_J= 0;
-                            Int contador_K= 0;
-                            Int contador_L= 0;
-                            Int contador_M= 0;
-                            Int contador_N= 0;
-                            Int contador_Ñ= 0;
-                            Int contador_O= 0;
-                            Int contador_P= 0;
-                            Int contador_Q= 0;
-                            Int contador_R= 0;
-                            Int contador_S= 0;
-                            Int contador_T= 0;
-                            Int contador_U= 0;
-                            Int contador_V= 0;
-                            Int contador_W= 0;
-                            Int contador_X= 0;
-                            Int contador_Y= 0;
-                            Int contador_Z= 0;
-                        Try {
-                            BufferedReader br = new BufferedReader(new FileReader(“C:/Users/laloe/Downloads/el_quijote.txt”));
-                            System.out.println(“TEXTO LEIDO”);
-                            System.out.println(“----- -----\n”);
+            public static void main(String[] args) {
+                    int cont = 0;
+                    char caracter;
+                            int conta = 0;
+                            int contb = 0;
+                            int contc = 0;
+                            int contd = 0;
+                            int conte = 0;
+                            int contf = 0;
+                            int contg = 0;
+                            int conth = 0;
+                            int conti = 0;
+                            int contj = 0;
+                            int contk = 0;
+                            int contl = 0;
+                            int contm = 0;
+                            int contn = 0;
+                            int contñ = 0;
+                            int conto = 0;
+                            int contp = 0;
+                            int contq = 0;
+                            int contr = 0;
+                            int conts = 0;
+                            int contt = 0;
+                            int contu = 0;
+                            int contv = 0;
+                            int contw = 0;
+                            int contx = 0;
+                            int conty = 0;
+                            int contz = 0;
+                            int contA = 0;
+                            int contB = 0;
+                            int contC = 0;
+                            int contD = 0;
+                            int contE = 0;
+                            int contF = 0;
+                            int contG = 0;
+                            int contH = 0;
+                            int contI = 0;
+                            int contJ = 0;
+                            int contK = 0;
+                            int contL = 0;
+                            int contM = 0;
+                            int contN = 0;
+                            int contÑ = 0;
+                            int contO = 0;
+                            int contP = 0;
+                            int contQ = 0;
+                            int contR = 0;
+                            int contS = 0;
+                            int contT = 0;
+                            int contU = 0;
+                            int contV = 0;
+                            int contW = 0;
+                            int contX = 0;
+                            int contY = 0;
+                            int contZ = 0;
+                        try {
+                            BufferedReader br = new BufferedReader(new FileReader("C:/User/Gabriel/Documentos/texto.txt"));
+                            System.out.println("TEXTO LEIDO");
+                            System.out.println("----- -----\n");
 
                             String linea = br.readLine();
-                            While (linea ¡= null) {
+                            while (linea ¡= ()) {
                             System.out.println(linea);
-                                    For (int contadorlínea = 0; contadorlínea < linea.length(); contadorlínea++) {
-                                    Letractual = linea.charAt(contadorlínea);
-                                        If (letractual == ‘a’) {
-                                            Contador_a++;     
+                                    for (int contadorlínea = 0; contadorlínea < linea.length(); contadorlínea++) {
+                                    caracter = linea.charAt(contadorlínea);
+                                        if (caracter == ‘a’) {
+                                            conta++;    - 
                                         }
-                                        If (letractual == ‘b’) {
-                                            Contador_b++;     
+                                        if (caracter == ‘b’) {
+                                            contb++;     
                                         }
-                                        If (letractual == ‘c’) {
-                                            Contador_c++;     
+                                        if (caracter == ‘c’) {
+                                            contc++;     
                                         }
-                                        If (letractual == ‘d’) {
-                                            Contador_d++;     
+                                        if (caracter == ‘d’) {
+                                            contd++;     
                                         }
-                                        If (letractual == ‘e’) {
-                                            Contador_e++;     
+                                        if (caracter == ‘e’) {
+                                            conte++;     
                                         }
-                                        If (letractual == ‘f’) {
-                                            Contador_f++;     
+                                        if (caracter == ‘f’) {
+                                            contf++;     
                                         }
-                                        If (letractual == ‘g’) {
-                                            Contador_g++;     
+                                        if (caracter == ‘g’) {
+                                            contg++;     
                                         }
-                                        If (letractual == ‘h’) {
-                                            Contador_h++;     
+                                        if (caracter == ‘h’) {
+                                            conth++;     
                                         }
-                                        If (letractual == ‘i’) {
-                                            Contador_i++;     
+                                        if (caracter == ‘i’) {
+                                            conti++;     
                                         }
-                                        If (letractual == ‘j’) {
-                                            Contador_j++;     
+                                        if (caracter == ‘j’) {
+                                            contj++;     
                                         }
-                                        If (letractual == ‘k’) {
-                                            Contador_k++;     
+                                        if (caracter == ‘k’) {
+                                            contk++;     
                                         }
-                                        If (letractual == ‘l’) {
-                                            Contador_l++;     
+                                        if (caracter == ‘l’) {
+                                            contl++;     
                                         }
-                                        If (letractual == ‘m’) {
-                                            Contador_m++;     
+                                        if (caracter == ‘m’) {
+                                            contm++;     
                                         }
-                                        If (letractual == ‘n’) {
-                                            Contador_n++;     
+                                        if (caracter == ‘n’) {
+                                            contn++;     
                                         }
-                                        If (letractual == ‘ñ’) {
-                                            Contador_ñ++;     
+                                        if (caracter == ‘ñ’) {
+                                            contñ++;     
                                         }
-                                        If (letractual == ‘o’) {
-                                            Contador_o++;     
+                                        if (caracter == ‘o’) {
+                                            conto++;     
                                         }
-                                        If (letractual == ‘p’) {
-                                            Contador_p++;     
+                                        if (caracter == ‘p’) {
+                                            contp++;     
                                         }
-                                        If (letractual == ‘q’) {
-                                            Contador_q++;     
+                                        if (caracter == ‘q’) {
+                                            contq++;     
                                         }
-                                        If (letractual == ‘r’) {
-                                            Contador_r++;     
+                                        if (caracter == ‘r’) {
+                                            contr++;     
                                         }
-                                        If (letractual == ‘s’) {
-                                            Contador_s++;     
+                                        if (caracter == ‘s’) {
+                                            conts++;     
                                         }
-                                        If (letractual == ‘t’) {
-                                            Contador_t++;     
+                                        if (caracter == ‘t’) {
+                                            contt++;     
                                         }
-                                        If (letractual == ‘u’) {
-                                            Contador_u++;     
+                                        if (caracter == ‘u’) {
+                                            contu++;     
                                         }
-                                        If (letractual == ‘v’) {
-                                            Contador_v++;     
+                                        if (caracter == ‘v’) {
+                                            contv++;     
                                         }
-                                        If (letractual == ‘w’) {
-                                            Contador_w++;     
+                                        if (caracter == ‘w’) {
+                                            contw++;     
                                         }
-                                        If (letractual == ‘x’) {
-                                            Contador_x++;     
+                                        if (caracter == ‘x’) {
+                                            contx++;     
                                         }
-                                        If (letractual == ‘y’) {
-                                            Contador_y++;     
+                                        if (caracter == ‘y’) {
+                                            conty++;     
                                         }
-                                        If (letractual == ‘z’) {
-                                            Contador_z++;     
+                                        if (caracter == ‘z’) {
+                                            contz++;     
                                         }
-                                         If (letractual == ‘A’) {
-                                            Contador_A++;     
+                                        if (caracter == ‘A’) {
+                                            contA++;     
                                         }
-                                        If (letractual == ‘B’) {
-                                            Contador_B++;     
+                                        if (caracter == ‘B’) {
+                                            contB++;     
                                         }
-                                        If (letractual == ‘C’) {
-                                            Contador_C++;     
+                                        if (caracter == ‘C’) {
+                                            contC++;     
                                         }
-                                        If (letractual == ‘D’) {
-                                            Contador_D++;     
+                                        if (caracter == ‘D’) {
+                                            contD++;     
                                         }
-                                        If (letractual == ‘E’) {
-                                            Contador_E++;     
+                                        if (caracter == ‘E’) {
+                                            contE++;     
                                         }
-                                        If (letractual == ‘F’) {
-                                            Contador_F++;     
+                                        if (caracter == ‘F’) {
+                                            contF++;     
                                         }
-                                        If (letractual == ‘G’) {
-                                            Contador_G++;     
+                                        if (caracter == ‘G’) {
+                                            contG++;     
                                         }
-                                        If (letractual == ‘H’) {
-                                            Contador_H++;     
+                                        if (caracter == ‘H’) {
+                                            contH++;     
                                         }
-                                        If (letractual == ‘I’) {
-                                            Contador_I++;     
+                                        if (caracter == ‘I’) {
+                                            contI++;     
                                         }
-                                        If (letractual == ‘J’) {
-                                            Contador_J++;     
+                                        if (V == ‘J’) {
+                                            contJ++;     
                                         }
-                                        If (letractual == ‘K’) {
-                                            Contador_K++;     
+                                        if (V == ‘K’) {
+                                            contK++;     
                                         }
-                                        If (letractual == ‘L’) {
-                                            Contador_L++;     
+                                        if (caracter == ‘L’) {
+                                            contL++;     
                                         }
-                                        If (letractual == ‘M’) {
-                                            Contador_M++;     
+                                        if (caracter == ‘M’) {
+                                            contM++;     
                                         }
-                                        If (letractual == ‘N’) {
-                                            Contador_N++;     
+                                        if (caracter == ‘N’) {
+                                            contN++;     
                                         }
-                                        If (letractual == ‘Ñ’) {
-                                            Contador_Ñ++;     
+                                        if (caracter == ‘Ñ’) {
+                                            contÑ++;     
                                         }
-                                        If (letractual == ‘O’) {
-                                            Contador_O++;     
+                                        if (caracter == ‘O’) {
+                                            contO++;     
                                         }
-                                        If (letractual == ‘P’) {
-                                            Contador_P++;     
+                                        if (caracter == ‘P’) {
+                                            contP++;     
                                         }
-                                        If (letractual == ‘Q’) {
-                                            Contador_Q++;     
+                                        if (caracter == ‘Q’) {
+                                            contQ++;     
                                         }
-                                        If (letractual == ‘R’) {
-                                            Contador_R++;     
+                                        if (caracter == ‘R’) {
+                                            contR++;     
                                         }
-                                        If (letractual == ‘S’) {
-                                            Contador_S++;     
+                                        if (caracter == ‘S’) {
+                                            contS++;     
                                         }
-                                        If (letractual == ‘T’) {
-                                            Contador_T++;     
+                                        if (caracter == ‘T’) {
+                                            contT++;     
                                         }
-                                        If (letractual == ‘U’) {
-                                            Contador_U++;     
+                                        if (caracter == ‘U’) {
+                                            contU++;     
                                         }
-                                        If (letractual == ‘V’) {
-                                            Contador_V++;     
+                                        if (caracter == ‘V’) {
+                                            contV++;     
                                         }
-                                        If (letractual == ‘W’) {
-                                            Contador_W++;     
+                                        if (caracter == ‘W’) {
+                                            contW++;     
                                         }
-                                        If (letractual == ‘X’) {
-                                            Contador_X++;     
+                                        if (caracter == ‘X’) {
+                                            contX++;     
                                         }
-                                        If (letractual == ‘Y’) {
-                                            Contador_Y++;     
+                                        if (caracter == ‘Y’) {
+                                            contY++;     
                                         }
-                                        If (letractual == ‘Z’) {
-                                            Contador_Z++;     
+                                        if (caracter == ‘Z’) {
+                                            contZ++;     
                                         }
                             }
-                                    Linea = br.readLine();
-                                    System.out.println(“línea terminada”);
+                                    linea = br.readLine();
+                                    System.out.println("línea terminada");
                             }
-                            Br.close();
+                            br.close();
                     } catch (FileNotFoundException e) {
-                            e.printStackTrace();
                     } catch (IOException e) {
-                            e.printStackTrace();
                     }
 
-                    System.out.println(“\nPalabras contadas: “ + contador);
-                    System.out.println(“carácter a contados: “ + contador_a);
-                    System.out.println(“carácter b contados: “ + contador_b);
-                    System.out.println(“carácter c contados: “ + contador_c);
-                    System.out.println(“carácter d contados: “ + contador_d);
-                    System.out.println(“carácter e contados: “ + contador_e);
-                    System.out.println(“carácter f contados: “ + contador_f);
-                    System.out.println(“carácter g contados: “ + contador_g);
-                    System.out.println(“carácter h contados: “ + contador_h);
-                    System.out.println(“carácter i contados: “ + contador_i);
-                    System.out.println(“carácter j contados: “ + contador_j);
-                    System.out.println(“carácter k contados: “ + contador_k);
-                    System.out.println(“carácter l contados: “ + contador_l);
-                    System.out.println(“carácter m contados: “ + contador_m);
-                    System.out.println(“carácter n contados: “ + contador_n);
-                    System.out.println(“carácter ñ contados: “ + contador_ñ);
-                    System.out.println(“carácter o contados: “ + contador_o);
-                    System.out.println(“carácter p contados: “ + contador_p);
-                    System.out.println(“carácter q contados: “ + contador_q);
-                    System.out.println(“carácter r contados: “ + contador_r);
-                    System.out.println(“carácter s contados: “ + contador_s);
-                    System.out.println(“carácter t contados: “ + contador_t);
-                    System.out.println(“carácter u contados: “ + contador_u);
-                    System.out.println(“carácter v contados: “ + contador_v);
-                    System.out.println(“carácter w contados: “ + contador_w);
-                    System.out.println(“carácter x contados: “ + contador_x);
-                    System.out.println(“carácter y contados: “ + contador_y);
-                    System.out.println(“carácter z contados: “ + contador_z);
-                    System.out.println(“carácter A contados: “ + contador_A);
-                    System.out.println(“carácter B contados: “ + contador_B);
-                    System.out.println(“carácter C contados: “ + contador_C);
-                    System.out.println(“carácter D contados: “ + contador_D);
-                    System.out.println(“carácter E contados: “ + contador_E);
-                    System.out.println(“carácter F contados: “ + contador_F);
-                    System.out.println(“carácter G contados: “ + contador_G);
-                    System.out.println(“carácter H contados: “ + contador_H);
-                    System.out.println(“carácter I contados: “ + contador_I);
-                    System.out.println(“carácter J contados: “ + contador_J);
-                    System.out.println(“carácter K contados: “ + contador_K);
-                    System.out.println(“carácter L contados: “ + contador_L);
-                    System.out.println(“carácter M contados: “ + contador_M);
-                    System.out.println(“carácter N contados: “ + contador_N);
-                    System.out.println(“carácter Ñ contados: “ + contador_Ñ);
-                    System.out.println(“carácter O contados: “ + contador_O);
-                    System.out.println(“carácter P contados: “ + contador_P);
-                    System.out.println(“carácter Q contados: “ + contador_Q);
-                    System.out.println(“carácter R contados: “ + contador_R);
-                    System.out.println(“carácter S contados: “ + contador_S);
-                    System.out.println(“carácter T contados: “ + contador_T);
-                    System.out.println(“carácter U contados: “ + contador_U);
-                    System.out.println(“carácter V contados: “ + contador_V);
-                    System.out.println(“carácter W contados: “ + contador_W);
-                    System.out.println(“carácter X contados: “ + contador_X);
-                    System.out.println(“carácter Y contados: “ + contador_Y);
-                    System.out.println(“carácter Z contados: “ + contador_Z);
+                    System.out.println("\nPalabras contadas: " + cont);
+                    System.out.println("carácter a contados: " + conta);
+                    System.out.println("carácter b contados: " + contb);
+                    System.out.println("carácter c contados: " + contc);
+                    System.out.println("carácter d contados: " + contd);
+                    System.out.println("carácter e contados: " + conte);
+                    System.out.println("carácter f contados: " + contf);
+                    System.out.println("carácter g contados: " + contg);
+                    System.out.println("carácter h contados: " + conth);
+                    System.out.println("carácter i contados: " + conti);
+                    System.out.println("carácter j contados: " + contj);
+                    System.out.println("carácter k contados: " + contk);
+                    System.out.println("carácter l contados: " + contl);
+                    System.out.println("carácter m contados: " + contm);
+                    System.out.println("carácter n contados: " + contn);
+                    System.out.println("carácter ñ contados: " + contñ);
+                    System.out.println("carácter o contados: " + conto);
+                    System.out.println("carácter p contados: " + contp);
+                    System.out.println("carácter q contados: " + contq);
+                    System.out.println("carácter r contados: " + contr);
+                    System.out.println("carácter s contados: " + conts);
+                    System.out.println("carácter t contados: " + contt);
+                    System.out.println("carácter u contados: " + contu);
+                    System.out.println("carácter v contados: " + contv);
+                    System.out.println("carácter w contados: " + contw);
+                    System.out.println("carácter x contados: " + contx);
+                    System.out.println("carácter y contados: " + conty);
+                    System.out.println("carácter z contados: " + contz);
+                    System.out.println("carácter A contados: " + contB);
+                    System.out.println("carácter C contados: " + contC);
+                    System.out.println("carácter D contados: " + contD);
+                    System.out.println("carácter E contados: " + contE);
+                    System.out.println("carácter F contados: " + contF);
+                    System.out.println("carácter G contados: " + contG);
+                    System.out.println("carácter H contados: " + contH);
+                    System.out.println("carácter I contados: " + contI);
+                    System.out.println("carácter J contados: " + contJ);
+                    System.out.println("carácter K contados: " + contK);
+                    System.out.println("carácter L contados: " + contL);
+                    System.out.println("carácter M contados: " + contM);
+                    System.out.println("carácter N contados: " + contN);
+                    System.out.println("carácter Ñ contados: " + contÑ);
+                    System.out.println("carácter O contados: " + contO);
+                    System.out.println("carácter P contados: " + contP);
+                    System.out.println("carácter Q contados: " + contQ);
+                    System.out.println("carácter R contados: " + contR);
+                    System.out.println("carácter S contados: " + contS);
+                    System.out.println("carácter T contados: " + contT);
+                    System.out.println("carácter U contados: " + contU);
+                    System.out.println("carácter V contados: " + contV);
+                    System.out.println("carácter W contados: " + contW);
+                    System.out.println("carácter X contados: " + contX);
+                    System.out.println("carácter Y contados: " + contY);
+                    System.out.println("carácter Z contados: " + contZ);
             }
     }
 
